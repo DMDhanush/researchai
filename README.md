@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Executive Summary
+##  Executive Summary
 
 Modern scientific research moves rapidly—manual literature reviews and research gap identification across dozens of multi-page PDFs can take weeks. Conventional consumer LLMs suffer from severe hallucinations, lack document grounding, and cannot provide verifiable source page citations.
 
@@ -19,7 +19,7 @@ Modern scientific research moves rapidly—manual literature reviews and researc
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 ```mermaid
 flowchart TD
@@ -35,12 +35,12 @@ flowchart TD
 
     subgraph AgentRouter ["3. Multi-Agent Supervisor"]
         Query["Researcher Query / Task"] --> Supervisor["Agent Supervisor Router"]
-        Supervisor --> A1["📄 Paper Summarizer (12 Sections)"]
-        Supervisor --> A2["⚖️ Comparative Matrix (9 Attributes)"]
-        Supervisor --> A3["🔍 Research Gap Discovery"]
-        Supervisor --> A4["📚 Literature Review Synthesizer"]
-        Supervisor --> A5["💬 Precision Q&A Engine"]
-        Supervisor --> A6["📊 Corpus Diagnostics Agent"]
+        Supervisor --> A1[" Paper Summarizer (12 Sections)"]
+        Supervisor --> A2[" Comparative Matrix (9 Attributes)"]
+        Supervisor --> A3[" Research Gap Discovery"]
+        Supervisor --> A4[" Literature Review Synthesizer"]
+        Supervisor --> A5[" Precision Q&A Engine"]
+        Supervisor --> A6[" Corpus Diagnostics Agent"]
     end
 
     subgraph Grounding ["4. Evidence Verification & Output"]
@@ -52,7 +52,7 @@ flowchart TD
 
 ---
 
-## ✨ Core Engineering Capabilities
+##  Core Engineering Capabilities
 
 ### 1. Ingestion & Semantic Chunking
 - Robust multi-column layout extraction via **PyMuPDF**, stripping running headers, footers, and page noise.
@@ -74,7 +74,7 @@ flowchart TD
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 researchai/
@@ -119,7 +119,7 @@ researchai/
 
 ---
 
-## 🚀 Quickstart Guide
+##  Quickstart Guide
 
 ### 1. Prerequisites
 - **Python:** 3.10, 3.11, or 3.12
@@ -179,7 +179,7 @@ Open your browser to `http://localhost:8501`.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **D Dhanush**  
 - **Master of Computer Applications (MCA)** — *Seshadripuram College, Bengaluru*
@@ -189,5 +189,5 @@ Open your browser to `http://localhost:8501`.
 
 ---
 
-## 📄 License
+##  License
 This project was developed as an MCA Capstone Project and is licensed under the MIT License.
