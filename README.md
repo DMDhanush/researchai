@@ -1,4 +1,4 @@
-﻿# 🔬 ResearchAI — Academic Literature Intelligence Platform
+# ?? ResearchAI � Academic Literature Intelligence Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.38+-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -13,7 +13,7 @@
 
 ##  Executive Summary
 
-Modern scientific research moves rapidly—manual literature reviews and research gap identification across dozens of multi-page PDFs can take weeks. Conventional consumer LLMs suffer from severe hallucinations, lack document grounding, and cannot provide verifiable source page citations.
+Modern scientific research moves rapidly�manual literature reviews and research gap identification across dozens of multi-page PDFs can take weeks. Conventional consumer LLMs suffer from severe hallucinations, lack document grounding, and cannot provide verifiable source page citations.
 
 **ResearchAI** solves this by combining high-precision document parsing (**PyMuPDF**), dense semantic vector search (**ChromaDB** + **SentenceTransformers**), and a **Multi-Agent Supervisor Architecture**. Every synthesized insight, summary, and answer is strictly anchored to retrieved document chunks with verifiable source page numbers and citation confidence scores.
 
@@ -78,43 +78,43 @@ flowchart TD
 
 ```text
 researchai/
-├── agents/                       # Specialized Agent implementations
-│   ├── supervisor.py             # Agent supervisor & intent routing
-│   ├── paper_agent.py            # 12-section paper summarizer agent
-│   ├── comparison_agent.py       # Multi-paper comparative matrix agent
-│   ├── gap_agent.py              # Research gap identification agent
-│   ├── literature_agent.py       # Publication synthesis & citation agent
-│   └── insights_agent.py         # Executive literature insight agent
-├── ai/                           # LLM interface & prompt templates
-│   ├── llm.py                    # Multi-provider client (OpenAI / Ollama)
-│   ├── intent.py                 # Query intent classifier
-│   └── prompts/                  # Guardrailed prompt engineering
-│       ├── summary_prompt.py
-│       ├── comparison_prompt.py
-│       ├── gap_prompt.py
-│       ├── literature_prompt.py
-│       └── qa_prompt.py
-├── rag/                          # Core RAG pipeline
-│   ├── ingestion.py              # PDF parsing & text sanitization
-│   ├── chunking.py               # Semantic sliding-window chunker
-│   ├── embeddings.py             # SentenceTransformer embeddings
-│   ├── vector_store.py           # ChromaDB integration & querying
-│   ├── retriever.py              # Top-k similarity retrieval
-│   └── qa_engine.py              # Grounded answer synthesizer
-├── frontend/                     # Streamlit web user interface
-│   ├── dashboard.py              # Analytics & corpus telemetry
-│   ├── upload.py                 # Document upload & ingestion UI
-│   ├── library.py                # Indexed papers library
-│   ├── qa.py                     # Interactive conversational Q&A
-│   └── login.py                  # Session token authentication
-├── database/                     # SQLite relational metadata layer
-│   ├── models.py                 # SQLAlchemy document & user schemas
-│   └── database.py               # Session lifecycle management
-├── auth.py                       # User session security & password hashing
-├── main.py                       # Streamlit application entrypoint
-├── requirements.txt              # Production dependency specifications
-├── .env.example                  # Environment variable configuration template
-└── README.md                     # Project documentation
++-- agents/                       # Specialized Agent implementations
+�   +-- supervisor.py             # Agent supervisor & intent routing
+�   +-- paper_agent.py            # 12-section paper summarizer agent
+�   +-- comparison_agent.py       # Multi-paper comparative matrix agent
+�   +-- gap_agent.py              # Research gap identification agent
+�   +-- literature_agent.py       # Publication synthesis & citation agent
+�   +-- insights_agent.py         # Executive literature insight agent
++-- ai/                           # LLM interface & prompt templates
+�   +-- llm.py                    # Multi-provider client (OpenAI / Ollama)
+�   +-- intent.py                 # Query intent classifier
+�   +-- prompts/                  # Guardrailed prompt engineering
+�       +-- summary_prompt.py
+�       +-- comparison_prompt.py
+�       +-- gap_prompt.py
+�       +-- literature_prompt.py
+�       +-- qa_prompt.py
++-- rag/                          # Core RAG pipeline
+�   +-- ingestion.py              # PDF parsing & text sanitization
+�   +-- chunking.py               # Semantic sliding-window chunker
+�   +-- embeddings.py             # SentenceTransformer embeddings
+�   +-- vector_store.py           # ChromaDB integration & querying
+�   +-- retriever.py              # Top-k similarity retrieval
+�   +-- qa_engine.py              # Grounded answer synthesizer
++-- frontend/                     # Streamlit web user interface
+�   +-- dashboard.py              # Analytics & corpus telemetry
+�   +-- upload.py                 # Document upload & ingestion UI
+�   +-- library.py                # Indexed papers library
+�   +-- qa.py                     # Interactive conversational Q&A
+�   +-- login.py                  # Session token authentication
++-- database/                     # SQLite relational metadata layer
+�   +-- models.py                 # SQLAlchemy document & user schemas
+�   +-- database.py               # Session lifecycle management
++-- auth.py                       # User session security & password hashing
++-- main.py                       # Streamlit application entrypoint
++-- requirements.txt              # Production dependency specifications
++-- .env.example                  # Environment variable configuration template
++-- README.md                     # Project documentation
 ```
 
 ---
@@ -168,7 +168,7 @@ Open your browser to `http://localhost:8501`.
 
 ---
 
-## 🧪 Evaluation & Telemetry Highlights
+## ?? Evaluation & Telemetry Highlights
 
 | Metric | Target / Benchmark | Result |
 | :--- | :--- | :--- |
@@ -182,12 +182,13 @@ Open your browser to `http://localhost:8501`.
 ##  Author
 
 **D Dhanush**  
-- **Master of Computer Applications (MCA)** — *Seshadripuram College, Bengaluru*
+- **Master of Computer Applications (MCA)** � *Seshadripuram College, Bengaluru*
 - **Live Portfolio:** [dmdhanush.github.io/dhanush-d.github.io](https://dmdhanush.github.io/dhanush-d.github.io/)
-- **LinkedIn:** [linkedin.com/in/dhanush-d](https://linkedin.com/in/dhanush-d)
+- **LinkedIn:** [linkedin.com/in/dhanush-d](https://www.linkedin.com/in/dhanush-d-04503b306/)
 - **GitHub:** [@DMDhanush](https://github.com/DMDhanush)
 
 ---
 
 ##  License
 This project was developed as an MCA Capstone Project and is licensed under the MIT License.
+
